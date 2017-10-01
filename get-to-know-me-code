@@ -1,0 +1,28 @@
+#python
+
+print ("hello world")
+
+name = str("kelsey")
+color = str("green")
+greeting = str("hey there! get to know me by asking a question.")
+
+while True:
+
+    question = input()
+    print("user: ", question)
+  
+    if question == 'what is your name?':
+        print (name)
+        continue
+    elif question == 'what is your favorite color?':
+        print (color)
+        continue
+    elif question == 'hello' or question == 'hi':
+        print (greeting)
+        continue
+    elif question == 'stop':
+        print('goodbye')
+        break
+    else:
+        print ('try again. if you wish to exit, print "stop".')
+        continue
